@@ -1,0 +1,24 @@
+Task for Node js:
+Build a apis for web application which lets employees of an organization 
+to add/manage challenges for internal hackathons which they organize every month. 
+Let's call this application Hack Ideas.
+The application should have these features,
+* Allow users to add them into application with 'employee id',name','age','department'.
+* Allow users to enter into application with 'employee id'(password is not necessary).
+* Allow users to add a new challenges/ideas.
+* Allow users to edit their challenges/ideas.
+* A challenge will have a title, description and tags
+* You can maintain fixed pre-defined tags (like 'feature', 'tech' etc.)
+* Users can upvote a challenge.
+* Show the list of all challenges on home page
+* Allow users to sort challenges with votes count, creation date
+
+
+Use MySQL database to store data and to create api you can use express js.
+
+Ans:
+Table 1- employee
+'employee id','name','password','age','department'.
+
+Table 2- challenge
+'employee id','title', 'description', 'tags', 'creation date', 'votes count'.
